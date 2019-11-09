@@ -1,0 +1,589 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=2">
+<meta name="theme-color" content="#222">
+<meta name="generator" content="Hexo 4.0.0">
+  <link rel="apple-touch-icon" sizes="180x180" href="/images/apple-touch-icon-next.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/images/favicon-32x32-next.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/images/favicon-16x16-next.png">
+  <link rel="mask-icon" href="/images/logo.svg" color="#222">
+
+<link rel="stylesheet" href="/css/main.css">
+
+
+<link rel="stylesheet" href="/lib/font-awesome/css/font-awesome.min.css">
+
+
+<script id="hexo-configurations">
+  var NexT = window.NexT || {};
+  var CONFIG = {
+    root: '/',
+    scheme: 'Pisces',
+    version: '7.4.2',
+    exturl: false,
+    sidebar: {"position":"left","width":380,"display":"post","offset":12,"onmobile":false},
+    copycode: {"enable":false,"show_result":false,"style":null},
+    back2top: {"enable":true,"sidebar":false,"scrollpercent":false},
+    bookmark: {"enable":false,"color":"#222","save":"auto"},
+    fancybox: false,
+    mediumzoom: false,
+    lazyload: false,
+    pangu: false,
+    algolia: {
+      appID: '',
+      apiKey: '',
+      indexName: '',
+      hits: {"per_page":10},
+      labels: {"input_placeholder":"Search for Posts","hits_empty":"We didn't find any results for the search: ${query}","hits_stats":"${hits} results found in ${time} ms"}
+    },
+    localsearch: {"enable":false,"trigger":"auto","top_n_per_article":1,"unescape":false,"preload":false},
+    path: '',
+    motion: {"enable":true,"async":false,"transition":{"post_block":"fadeIn","post_header":"slideDownIn","post_body":"slideDownIn","coll_header":"slideLeftIn","sidebar":"slideUpIn"}},
+    translation: {
+      copy_button: 'Copy',
+      copy_success: 'Copied',
+      copy_failure: 'Copy failed'
+    },
+    sidebarPadding: 40
+  };
+</script>
+
+  <meta name="description" content="NexT User Docs – Third-party Service Integration">
+<meta property="og:type" content="website">
+<meta property="og:title" content="Third-party Services">
+<meta property="og:url" content="http:&#x2F;&#x2F;yoursite.com&#x2F;data_explorations&#x2F;third-party-services&#x2F;index.html">
+<meta property="og:site_name" content="GLORIA&#39;S HOMEPAGE">
+<meta property="og:description" content="NexT User Docs – Third-party Service Integration">
+<meta property="og:locale" content="en">
+<meta property="og:updated_time" content="2019-11-07T23:50:56.283Z">
+<meta name="twitter:card" content="summary">
+
+<link rel="canonical" href="http://yoursite.com/data_explorations/third-party-services/">
+
+
+<script id="page-configurations">
+  // https://hexo.io/docs/variables.html
+  CONFIG.page = {
+    sidebar: "",
+    isHome: false,
+    isPost: false,
+    isPage: true,
+    isArchive: false
+  };
+</script>
+
+  <title>Third-party Services | GLORIA'S HOMEPAGE
+  </title>
+  
+
+
+
+
+
+
+  <noscript>
+  <style>
+  .use-motion .brand,
+  .use-motion .menu-item,
+  .sidebar-inner,
+  .use-motion .post-block,
+  .use-motion .pagination,
+  .use-motion .comments,
+  .use-motion .post-header,
+  .use-motion .post-body,
+  .use-motion .collection-header { opacity: initial; }
+
+  .use-motion .site-title,
+  .use-motion .site-subtitle {
+    opacity: initial;
+    top: initial;
+  }
+
+  .use-motion .logo-line-before i { left: initial; }
+  .use-motion .logo-line-after i { right: initial; }
+  </style>
+</noscript>
+
+</head>
+
+<body itemscope itemtype="http://schema.org/WebPage">
+  <div class="container use-motion">
+    <div class="headband"></div>
+
+    <header class="header" itemscope itemtype="http://schema.org/WPHeader">
+      <div class="header-inner"><div class="site-brand-container">
+  <div class="site-meta">
+
+    <div>
+      <a href="/" class="brand" rel="start">
+        <span class="logo-line-before"><i></i></span>
+        <span class="site-title">GLORIA'S HOMEPAGE</span>
+        <span class="logo-line-after"><i></i></span>
+      </a>
+    </div>
+  </div>
+
+  <div class="site-nav-toggle">
+    <div class="toggle" aria-label="Toggle navigation bar">
+      <span class="toggle-line toggle-line-first"></span>
+      <span class="toggle-line toggle-line-middle"></span>
+      <span class="toggle-line toggle-line-last"></span>
+    </div>
+  </div>
+</div>
+
+
+<nav class="site-nav">
+  
+  <ul id="menu" class="menu">
+        <li class="menu-item menu-item-home">
+
+    <a href="/" rel="section"><i class="fa fa-fw fa-home"></i>Home</a>
+
+  </li>
+  </ul>
+
+</nav></div>
+    </header>
+
+    
+  <div class="back-to-top">
+    <i class="fa fa-arrow-up"></i>
+    <span>0%</span>
+  </div>
+
+
+    <main class="main">
+      <div class="main-inner">
+        <div class="content-wrap">
+          
+  
+  
+
+          <div class="content">
+            
+
+  <div class="posts-expand">
+    
+    
+    
+    <div class="post-block" lang="en">
+      <header class="post-header">
+
+<h1 class="post-title" itemprop="name headline">Third-party Services
+</h1>
+
+<div class="post-meta">
+    <div class="post-description">NexT User Docs – Third-party Service Integration</div>
+  
+  <ul class="breadcrumb">
+          
+            <li><a href="/data_explorations/">DATA_EXPLORATIONS</a></li>
+          <li>THIRD-PARTY-SERVICES</li>
+        
+  </ul>
+
+</div>
+
+</header>
+
+      
+      
+      
+      <div class="post-body">
+          <p>Static website is limited in some functions, so we need third-party services to extend our site.<br>In any time you can extend needed functions by using third-party services supported by NexT.</p>
+<h3 id="Math-Equations"><a href="#Math-Equations" class="headerlink" title="Math Equations"></a>Math Equations</h3><ul>
+<li><a href="/docs/third-party-services/math-equations">Math Equations</a></li>
+</ul>
+<h3 id="Comment-Systems"><a href="#Comment-Systems" class="headerlink" title="Comment Systems"></a>Comment Systems</h3><ul>
+<li><a href="/docs/third-party-services/comments#Disqus">Disqus</a></li>
+<li><a href="/docs/third-party-services/comments#DisqusJS">DisqusJS</a></li>
+<li><a href="/docs/third-party-services/comments#LiveRe">LiveRe</a></li>
+<li><a href="/docs/third-party-services/comments#Gitalk">Gitalk</a></li>
+<li><a href="/docs/third-party-services/comments#Valine">Valine (China)</a></li>
+<li><a href="/docs/third-party-services/comments#Changyan">Changyan (China)</a></li>
+</ul>
+<div class="note info">
+            <p>If you want to disable comment in some page/post, just add <code>comments: false</code> to <a href="https://hexo.io/docs/front-matter" target="_blank" rel="noopener">Front-matter</a> in your markdown file.</p>
+          </div>
+
+<h3 id="Statistics-and-Analytics"><a href="#Statistics-and-Analytics" class="headerlink" title="Statistics and Analytics"></a>Statistics and Analytics</h3><h4 id="Analytics"><a href="#Analytics" class="headerlink" title="Analytics"></a>Analytics</h4><ul>
+<li><a href="/docs/third-party-services/statistics-and-analytics#Google-Analytics">Google Analytics</a></li>
+<li><a href="/docs/third-party-services/statistics-and-analytics#Baidu-Analytics-China">Baidu Analytics (China)</a></li>
+<li><a href="/docs/third-party-services/statistics-and-analytics#Growingio-Analytics">Growingio Analytics</a></li>
+<li><a href="/docs/third-party-services/statistics-and-analytics#CNZZ-Analytics-China">CNZZ Analytics (China)</a></li>
+<li><a href="/docs/third-party-services/statistics-and-analytics#Tencent-Analytics-China">Tencent Analytics (China)</a></li>
+<li><a href="/docs/third-party-services/statistics-and-analytics#Tencent-Mobile-Analytics-China">Tencent Mobile Analytics (China)</a></li>
+</ul>
+<h4 id="Statistics"><a href="#Statistics" class="headerlink" title="Statistics"></a>Statistics</h4><ul>
+<li><a href="/docs/third-party-services/statistics-and-analytics#LeanCloud-China">LeanCloud (China)</a></li>
+<li><a href="/docs/third-party-services/statistics-and-analytics#Firebase">Firebase</a></li>
+<li><a href="/docs/third-party-services/statistics-and-analytics#Busuanzi-Counting-China">Busuanzi Counting</a></li>
+</ul>
+<h3 id="Post-Widgets"><a href="#Post-Widgets" class="headerlink" title="Post Widgets"></a>Post Widgets</h3><ul>
+<li><a href="/docs/third-party-services/post-widgets#Widgetpack-Rating">Widgetpack Rating</a></li>
+<li><a href="/docs/third-party-services/post-widgets#AddThis">AddThis</a></li>
+</ul>
+<h3 id="Search-Services"><a href="#Search-Services" class="headerlink" title="Search Services"></a>Search Services</h3><ul>
+<li><a href="/docs/third-party-services/search-services#Algolia-Search">Algolia Search</a></li>
+<li><a href="/docs/third-party-services/search-services#Local-Search">Local Search</a></li>
+<li><a href="/docs/third-party-services/search-services#Swiftype-Search">Swiftype</a></li>
+</ul>
+<h3 id="Chat-Services"><a href="#Chat-Services" class="headerlink" title="Chat Services"></a>Chat Services</h3><ul>
+<li><a href="/docs/third-party-services/chat-services#Chatra">Chatra</a></li>
+<li><a href="/docs/third-party-services/chat-services#Tidio">Tidio</a></li>
+</ul>
+<h3 id="External-Libraries"><a href="#External-Libraries" class="headerlink" title="External Libraries"></a>External Libraries</h3><ul>
+<li><a href="/docs/third-party-services/external-libraries#PJAX">PJAX</a></li>
+<li><a href="/docs/third-party-services/external-libraries#Fancybox">Fancybox</a></li>
+<li><a href="/docs/third-party-services/external-libraries#Medium-Zoom">MediumZoom</a></li>
+<li><a href="/docs/third-party-services/external-libraries#Lazyload">Lazyload</a></li>
+<li><a href="/docs/third-party-services/external-libraries#Pangu-Autospace">Pangu Autospace</a></li>
+<li><a href="/docs/third-party-services/external-libraries#Quicklink">Quicklink</a></li>
+<li><a href="/docs/third-party-services/external-libraries#Animation-Effect">Motion</a></li>
+<li><a href="/docs/third-party-services/external-libraries#Progress-Bar">Progress bar</a></li>
+<li><a href="/docs/third-party-services/external-libraries#Backgroud-JS">Backgroud JS</a></li>
+</ul>
+
+      </div>
+      
+      
+      
+    </div>
+    
+  <ul class="breadcrumb">
+          
+            <li><a href="/data_explorations/">DATA_EXPLORATIONS</a></li>
+          <li>THIRD-PARTY-SERVICES</li>
+        
+  </ul>
+
+    
+    
+    
+  </div>
+
+
+          </div>
+          
+
+        </div>
+          
+  
+  <div class="toggle sidebar-toggle">
+    <span class="toggle-line toggle-line-first"></span>
+    <span class="toggle-line toggle-line-middle"></span>
+    <span class="toggle-line toggle-line-last"></span>
+  </div>
+
+  <aside class="sidebar">
+    <div class="sidebar-inner">
+
+      <ul class="sidebar-nav motion-element">
+        <li class="sidebar-nav-toc">
+          Table of Contents
+        </li>
+        <li class="sidebar-nav-overview">
+          Overview
+        </li>
+      </ul>
+
+      <!--noindex-->
+      <div class="post-toc-wrap sidebar-panel">
+      </div>
+      <!--/noindex-->
+
+      <div class="site-overview-wrap sidebar-panel">
+        <div class="site-author motion-element" itemprop="author" itemscope itemtype="http://schema.org/Person">
+  <img class="site-author-image" itemprop="image" alt="ZHIXIU LIU"
+    src="/images/avatar.JPG">
+  <p class="site-author-name" itemprop="name">ZHIXIU LIU</p>
+  <div class="site-description" itemprop="description">HER CURRENT ASPIRATION IS TO INTEGRATE THE NARRATIVE APPROACH OF FILM-MAKING INTO TECHNOLOGY-DRIVEN DESIGNS. HER VISION AIMS TO STRENGTHEN THE RELATIONSHIP AND RESONANCE BETWEEN USERS AND PRODUCTS, USING TECHNOLOGY TO FACILITATE THE ENDEAVOR. [Resume]</div>
+</div>
+  <div class="links-of-author motion-element">
+      <span class="links-of-author-item">
+        <a href="https://github.com/Glorii" title="GitHub &amp;rarr; https:&#x2F;&#x2F;github.com&#x2F;Glorii" rel="noopener" target="_blank"><i class="fa fa-fw fa-github"></i></a>
+      </span>
+      <span class="links-of-author-item">
+        <a href="mailto:liuzx16@stanford.edu" title="E-Mail &amp;rarr; mailto:liuzx16@stanford.edu" rel="noopener" target="_blank"><i class="fa fa-fw fa-envelope"></i></a>
+      </span>
+      <span class="links-of-author-item">
+        <a href="https://www.youtube.com/channel/UCtSfHU9YMnAyo7FRM8wH4nA" title="YouTube &amp;rarr; https:&#x2F;&#x2F;www.youtube.com&#x2F;channel&#x2F;UCtSfHU9YMnAyo7FRM8wH4nA" rel="noopener" target="_blank"><i class="fa fa-fw fa-youtube"></i></a>
+      </span>
+      <span class="links-of-author-item">
+        <a href="https://instagram.com/yourname" title="Instagram &amp;rarr; https:&#x2F;&#x2F;instagram.com&#x2F;yourname" rel="noopener" target="_blank"><i class="fa fa-fw fa-instagram"></i></a>
+      </span>
+  </div>
+
+
+
+      </div>
+
+    </div>
+
+    <div class="nav-inner">
+    
+  <ul id="menu" class="menu">
+        <li class="menu-item menu-item-home">
+
+    <a href="/" rel="section"><i class="fa fa-fw fa-home"></i>HOME</a>
+
+  </li>
+        
+            
+  <li class="menu-item menu-item-data-explorations">
+
+    <a href="/data_explorations/" rel="section"><i class="fa fa-fw fa-book"></i>DATA EXPLORATIONS</a>
+
+  </li>
+
+
+
+
+        <ul>
+          
+            
+          
+          
+              
+  <li class="menu-item menu-item-causation-driven-visualizations">
+
+    <a href="/data_explorations/causation-driven-vis.html" rel="section"><i class="fa fa-fw fa-cogs"></i>CAUSATION-DRIVEN VISUALIZATIONS</a>
+
+  </li>
+
+
+          
+          
+              
+  <li class="menu-item menu-item-t2u:video-recommendation">
+
+    <a href="/data_explorations/TtoYou.html" rel="section"><i class="fa fa-fw fa-cogs"></i>T2U:VIDEO RECOMMENDATION</a>
+
+  </li>
+
+
+          
+        </ul>
+        
+
+      
+        
+            
+  <li class="menu-item menu-item-ux-for-brighter-living">
+
+    <a href="/ux_design/" rel="section"><i class="fa fa-fw fa-book"></i>UX FOR BRIGHTER LIVING</a>
+
+  </li>
+
+
+
+
+        <ul>
+          
+            
+          
+          
+              
+  <li class="menu-item menu-item-askit">
+
+    <a href="/ux_design/askit.html" rel="section"><i class="fa fa-fw fa-flag"></i>ASKIT</a>
+
+  </li>
+
+
+          
+          
+              
+  <li class="menu-item menu-item-granzort">
+
+    <a href="/ux_design/granzort.html" rel="section"><i class="fa fa-fw fa-flag"></i>GRANZORT</a>
+
+  </li>
+
+
+          
+          
+              
+  <li class="menu-item menu-item-motion-design-principles-@huawei">
+
+    <a href="/ux_design/huawei.html" rel="section"><i class="fa fa-fw fa-flag"></i>MOTION DESIGN PRINCIPLES @HUAWEI</a>
+
+  </li>
+
+
+          
+          
+              
+  <li class="menu-item menu-item-system-optimization-@schlumberger">
+
+    <a href="/ux_design/schlumberger.html" rel="section"><i class="fa fa-fw fa-book"></i>SYSTEM OPTIMIZATION @SCHLUMBERGER</a>
+
+  </li>
+
+
+          
+          
+              
+  <li class="menu-item menu-item-senthesia">
+
+    <a href="/ux_design/senthesia.html" rel="section"><i class="fa fa-fw fa-life-ring"></i>SENTHESIA</a>
+
+  </li>
+
+
+          
+        </ul>
+        
+
+      
+        
+            
+  <li class="menu-item menu-item-game-and-beyond">
+
+    <a href="/exploration/" rel="section"><i class="fa fa-fw fa-book"></i>GAME AND BEYOND</a>
+
+  </li>
+
+
+
+
+        <ul>
+          
+            
+          
+          
+              
+  <li class="menu-item menu-item-outbreak:legacy">
+
+    <a href="/exploration/troubleshooting.html" rel="section"><i class="fa fa-fw fa-bug"></i>OUTBREAK:LEGACY</a>
+
+  </li>
+
+
+          
+          
+              
+  <li class="menu-item menu-item-fire-escaping-sim-game">
+
+    <a href="/exploration/troubleshooting.html" rel="section"><i class="fa fa-fw fa-bug"></i>FIRE ESCAPING SIM GAME</a>
+
+  </li>
+
+
+          
+        </ul>
+        
+
+      
+        
+            
+  <li class="menu-item menu-item-film,-photography-&-film-photography">
+
+    <a href="/photography/" rel="section"><i class="fa fa-fw fa-camera"></i>FILM, PHOTOGRAPHY & FILM PHOTOGRAPHY</a>
+
+  </li>
+
+
+
+
+        <ul>
+          
+            
+          
+          
+              
+  <li class="menu-item menu-item-film">
+
+    <a href="/photography/film.html" rel="section"><i class="fa fa-fw fa-camera"></i>FILM</a>
+
+  </li>
+
+
+          
+        </ul>
+        
+
+      
+  </ul>
+
+    </div>
+
+  </aside>
+  <div id="sidebar-dimmer"></div>
+
+
+      </div>
+    </main>
+
+    <footer class="footer">
+      <div class="footer-inner">
+        
+
+<div class="copyright">
+  
+  &copy; 
+  <span itemprop="copyrightYear">2019</span>
+  <span class="with-love">
+    <i class="fa fa-user"></i>
+  </span>
+  <span class="author" itemprop="copyrightHolder">ZHIXIU LIU</span>
+</div>
+  <div class="powered-by">Powered by <a href="https://hexo.io/" class="theme-link" rel="noopener" target="_blank">Hexo</a> v4.0.0
+  </div>
+  <span class="post-meta-divider">|</span>
+  <div class="theme-info">Theme – <a href="https://pisces.theme-next.org/" class="theme-link" rel="noopener" target="_blank">NexT.Pisces</a> v7.4.2
+  </div>
+
+        
+
+
+
+
+
+
+
+
+
+
+
+
+        
+      </div>
+    </footer>
+  </div>
+
+  
+  <script src="/lib/anime.min.js"></script>
+  <script src="/lib/velocity/velocity.min.js"></script>
+  <script src="/lib/velocity/velocity.ui.min.js"></script>
+<script src="/js/utils.js"></script><script src="/js/motion.js"></script>
+<script src="/js/schemes/pisces.js"></script><script src="/js/schemes/glorri.js"></script><script src="/js/next-boot.js"></script>
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+  
+
+</body>
+</html>
