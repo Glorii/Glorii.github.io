@@ -157,7 +157,7 @@ body {
 body {
   background: #fff;
   color: #555;
-  font-family: 'Lato', "PingFang SC", "Microsoft YaHei", sans-serif;
+  font-family: 'Helvetica', "PingFang SC", "Microsoft YaHei", sans-serif;
   font-size: 1em;
   line-height: 2;
 }
@@ -173,7 +173,7 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: 'Lato', "PingFang SC", "Microsoft YaHei", sans-serif;
+  font-family: 'Helvetica', "PingFang SC", "Microsoft YaHei", sans-serif;
   font-weight: bold;
   line-height: 1.5;
   margin: 20px 0 15px;
@@ -900,7 +900,7 @@ pre .javascript .function {
 }
 .main-inner {
   margin: 0 auto;
-  width: calc(100% - 350px);
+  width: calc(100% - 380px);
 }
 @media (min-width: 1200px) {
   .main-inner {
@@ -918,7 +918,7 @@ pre .javascript .function {
 .header-inner {
   margin: 0 auto;
   position: relative;
-  width: calc(100% - 350px);
+  width: calc(100% - 380px);
 }
 @media (min-width: 1200px) {
   .header-inner {
@@ -957,7 +957,7 @@ pre .javascript .function {
 }
 .site-title {
   display: inline-block;
-  font-family: 'Lato', "PingFang SC", "Microsoft YaHei", sans-serif;
+  font-family: 'Helvetica', "PingFang SC", "Microsoft YaHei", sans-serif;
   font-size: 1.375em;
   font-weight: normal;
   line-height: 1.5;
@@ -1113,11 +1113,11 @@ pre .javascript .function {
   display: inline-block;
 }
 .site-author-image {
-  border: 1px solid #eee;
+  border: 0px solid #eee;
   display: block;
   height: auto;
-  margin: 0 auto;
-  max-width: 120px;
+  margin: 0;
+  max-width: 170px;
   padding: 2px;
 }
 .site-author-name {
@@ -1146,7 +1146,7 @@ pre .javascript .function {
 }
 .links-of-author a::before,
 .links-of-author span.exturl::before {
-  background: #ff39ff;
+  background: #2469d6;
   border-radius: 50%;
   content: ' ';
   display: inline-block;
@@ -1298,7 +1298,7 @@ pre .javascript .function {
   box-sizing: border-box;
   margin: 0 auto;
   text-align: center;
-  width: calc(100% - 350px);
+  width: calc(100% - 380px);
 }
 @media (min-width: 1200px) {
   .footer-inner {
@@ -1412,7 +1412,9 @@ pre .javascript .function {
 .post-body {
   overflow-wrap: break-word;
   word-wrap: break-word;
-  font-family: 'Lato', "PingFang SC", "Microsoft YaHei", sans-serif;
+  font-family: 'Helvetica', "PingFang SC", "Microsoft YaHei", sans-serif;
+  font-size: 0.8em;
+  color: #000;
 }
 @media (min-width: 1200px) {
   .post-body {
@@ -1439,6 +1441,18 @@ pre .javascript .function {
 .post-button {
   margin-top: 40px;
   text-align: center;
+}
+.posts-expand .post-title-link {
+  border-bottom: none;
+  color: #000;
+  font-size: xx-large;
+  font-weight: 600;
+  display: inline-block;
+  position: left;
+  vertical-align: top;
+  text-align: left;
+/*font-size: 2em;*/
+  text-transform: uppercase;
 }
 .use-motion .post-block,
 .use-motion .pagination,
@@ -1586,6 +1600,10 @@ pre .javascript .function {
     margin: 0 20px;
   }
 }
+.post-body {
+  font-size: 0.9em;
+  line-height: 1.55;
+}
 @media (min-width: 992px) {
   .post-body {
     text-align: left;
@@ -1629,7 +1647,7 @@ pre .javascript .function {
   visibility: visible;
 }
 .post-body img {
-  border: 1px solid #ddd;
+/*border: 1px solid $gray-lighter;*/
   box-sizing: border-box;
   padding: 3px;
 }
@@ -1689,7 +1707,9 @@ pre .javascript .function {
   word-wrap: break-word;
   font-weight: 400;
   margin: initial;
-  text-align: center;
+  text-align: left;
+  font-size: 2em;
+  text-transform: uppercase;
 }
 .posts-expand .post-title-link {
   border-bottom: none;
@@ -1722,14 +1742,15 @@ pre .javascript .function {
 }
 .posts-expand .post-meta {
   color: #999;
-  font-family: 'Lato', "PingFang SC", "Microsoft YaHei", sans-serif;
+  font-family: 'Helvetica', "PingFang SC", "Microsoft YaHei", sans-serif;
   font-size: 0.75em;
   margin: 3px 0 60px 0;
-  text-align: center;
+  text-align: left;
 }
 .posts-expand .post-meta .post-description {
   font-size: 0.875em;
   margin-top: 2px;
+  text-align: left;
 }
 .posts-expand .post-meta time {
   border-bottom: 1px dashed #999;
@@ -2028,7 +2049,7 @@ ul.breadcrumb li + li:last-child {
 .header {
   margin: 0 auto;
   position: relative;
-  width: calc(100% - 350px);
+  width: calc(100% - 380px);
 }
 @media (min-width: 1200px) {
   .header {
@@ -2053,11 +2074,11 @@ ul.breadcrumb li + li:last-child {
   padding: 0;
   position: absolute;
   top: 0;
-  width: 350px;
+  width: 380px;
 }
 @media (min-width: 1200px) {
   .header-inner {
-    width: 350px;
+    width: 380px;
   }
 }
 @media (max-width: 991px) {
@@ -2087,7 +2108,7 @@ ul.breadcrumb li + li:last-child {
   box-sizing: border-box;
   float: right;
   padding: 40px;
-  width: calc(100% - 350px);
+  width: calc(100% - 380px);
 }
 @media (max-width: 991px) {
   .content-wrap {
@@ -2101,7 +2122,7 @@ ul.breadcrumb li + li:last-child {
   box-shadow: none;
   float: left;
   position: static;
-  width: 350px;
+  width: 380px;
 }
 @media (max-width: 991px) {
   .sidebar {
@@ -2137,11 +2158,15 @@ ul.breadcrumb li + li:last-child {
   background: #222;
   color: #fff;
   padding: 20px 0;
+  text-align: left;
 }
 @media (max-width: 991px) {
   .site-meta {
     box-shadow: 0 0 16px rgba(0,0,0,0.5);
   }
+}
+.site-meta .site-title {
+  left: 10px;
 }
 .brand {
   background: none;
@@ -2210,7 +2235,7 @@ ul.breadcrumb li + li:last-child {
 }
 .menu .menu-item a,
 .menu .menu-item span.exturl {
-  padding: 5px 20px;
+  padding: 5px 10px;
   position: relative;
   text-align: left;
   transition-property: background-color;
@@ -2275,20 +2300,20 @@ ul.breadcrumb li + li:last-child {
 .nav-inner.affix {
   position: fixed;
   top: 12px;
-  width: 350;
+  width: 380;
 }
 .nav-inner.affix-bottom {
   position: absolute;
 }
 .nav-inner .menu {
-  width: 350;
+  width: 380px;
 }
 .sidebar-inner {
   background: #fff;
   border-radius: initial;
   box-sizing: border-box;
   color: #555;
-  width: 350px;
+  width: 380px;
   opacity: 0;
 }
 .sidebar-inner.affix {
@@ -2323,6 +2348,19 @@ ul.breadcrumb li + li:last-child {
 .feed-link a:hover .fa,
 .chat a:hover .fa {
   color: #e34603;
+}
+.site-author-name {
+  color: #222;
+  font-weight: 500;
+  font-size: xxx-large;
+  margin: 0;
+  text-align: left;
+}
+.site-description {
+  color: #000;
+  font-size: 0.9em;
+  margin-top: 0;
+  text-align: left;
 }
 .links-of-author {
   display: flex;
