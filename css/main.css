@@ -158,8 +158,8 @@ body {
   background: #fff;
   color: #555;
   font-family: 'DIN Alternate', "PingFang SC", "Microsoft YaHei", sans-serif;
-  font-size: 1em;
-  line-height: 2;
+  font-size: 0.6em;
+  line-height: 1.3;
 }
 @media (max-width: 991px) {
   body {
@@ -1146,7 +1146,7 @@ pre .javascript .function {
 }
 .links-of-author a::before,
 .links-of-author span.exturl::before {
-  background: #ff1bff;
+  background: #ff7f00;
   border-radius: 50%;
   content: ' ';
   display: inline-block;
@@ -1414,7 +1414,7 @@ pre .javascript .function {
   word-wrap: break-word;
   font-family: 'DIN Alternate', "PingFang SC", "Microsoft YaHei", sans-serif;
   font-size: 0.8em;
-  color: #000;
+  color: #5e5e5e;
 }
 @media (min-width: 1200px) {
   .post-body {
@@ -1538,7 +1538,7 @@ pre .javascript .function {
   left: 0;
   margin-left: -4px;
   position: absolute;
-  top: 0.75em;
+  top: 0.5em;
   transition-property: background;
   width: 6px;
   transition-delay: 0s;
@@ -1553,7 +1553,7 @@ pre .javascript .function {
 }
 .posts-collapse .post-meta {
   display: inline;
-  font-size: 0.75em;
+  font-size: 0.5em;
   margin-right: 10px;
 }
 .posts-collapse .post-title {
@@ -1602,7 +1602,7 @@ pre .javascript .function {
 }
 .post-body {
   font-size: 0.9em;
-  line-height: 1.55;
+  line-height: 1.15;
 }
 @media (min-width: 992px) {
   .post-body {
@@ -1743,7 +1743,7 @@ pre .javascript .function {
 .posts-expand .post-meta {
   color: #999;
   font-family: 'DIN Alternate', "PingFang SC", "Microsoft YaHei", sans-serif;
-  font-size: 0.75em;
+  font-size: 0.5em;
   margin: 3px 0 60px 0;
   text-align: left;
 }
@@ -1808,7 +1808,7 @@ pre .javascript .function {
   top: 2px;
 }
 .post-nav-item .fa {
-  font-size: 0.75em;
+  font-size: 0.5em;
   margin-right: 5px;
 }
 .post-nav-next a {
@@ -2019,7 +2019,7 @@ pre .javascript .function {
   }
 }
 ul.breadcrumb {
-  font-size: 0.75em;
+  font-size: 0.5em;
   list-style: none;
   margin: 1em 0;
   padding: 0 2em;
@@ -2107,7 +2107,7 @@ ul.breadcrumb li + li:last-child {
   box-shadow: initial;
   box-sizing: border-box;
   float: right;
-  padding: 40px;
+  padding: 90px;
   width: calc(100% - 380px);
 }
 @media (max-width: 991px) {
@@ -2167,6 +2167,7 @@ ul.breadcrumb li + li:last-child {
 }
 .site-meta .site-title {
   left: 10px;
+  font-size: 1.875em;
 }
 .brand {
   background: none;
@@ -2351,14 +2352,14 @@ ul.breadcrumb li + li:last-child {
 }
 .site-author-name {
   color: #222;
-  font-weight: 500;
+  font-weight: 400;
   font-size: xxx-large;
   margin: 0;
   text-align: left;
 }
 .site-description {
-  color: #000;
-  font-size: 0.9em;
+  color: #5e5e5e;
+  font-size: 0.8em;
   margin-top: 0;
   text-align: left;
 }
