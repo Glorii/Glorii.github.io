@@ -1146,7 +1146,7 @@ pre .javascript .function {
 }
 .links-of-author a::before,
 .links-of-author span.exturl::before {
-  background: #beffa7;
+  background: #86d62a;
   border-radius: 50%;
   content: ' ';
   display: inline-block;
@@ -1445,7 +1445,7 @@ pre .javascript .function {
 .posts-expand .post-title-link {
   border-bottom: none;
   color: #000;
-  font-size: xx-large;
+  font-size: xxx-large;
   font-weight: 600;
   display: inline-block;
   position: left;
@@ -1708,7 +1708,8 @@ pre .javascript .function {
   font-weight: 400;
   margin: initial;
   text-align: left;
-  font-size: 2em;
+  font-size: 3em;
+  color: #222;
   text-transform: uppercase;
 }
 .posts-expand .post-title-link {
@@ -2107,7 +2108,7 @@ ul.breadcrumb li + li:last-child {
   box-shadow: initial;
   box-sizing: border-box;
   float: right;
-  padding: 90px;
+  padding: 90px 10% 90px 10%;
   width: calc(100% - 380px);
 }
 @media (max-width: 991px) {
